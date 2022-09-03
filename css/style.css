@@ -1,0 +1,36 @@
+.panels{
+    display: flex;
+}
+.panels {
+    background-image: url(../img1/LEGO_logo.svg.png);    
+    background-size:contain;
+    
+    
+
+}
+
+.line{
+    display: flex;
+
+}
+
+.elepce{
+    
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    top: 12px;
+    left: 12px;     
+    
+    background: rgba(196, 196, 196, 0.01);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25), inset 0px 2px 2px rgba(255, 255, 255, 0.15);
+}
+
+.Legoblock{
+    width: 50px;
+    height: 50px;  
+   
+    background: rgba(196, 196, 196, 0.01);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(120px);
+}
